@@ -96,7 +96,6 @@ class TestCalcPassword(unittest.TestCase):
 
 
     def test_AoC_example(self):
-        print("Starting AOC example")
         turns = [
             (68, False),
             (30, False),
