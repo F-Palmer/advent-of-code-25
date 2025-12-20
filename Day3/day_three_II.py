@@ -26,12 +26,6 @@ def joltage_of_bank(joltage_bank: list[int]) -> int:
         joltage += cur_best_num * 10**x
         last_selected_index = last_selected_index+idx_cur_best_num+1
     return joltage
-    # crop list to all values that are left of the 12 number boundary
-    # find the highest left-most value in that remaining list
-    # go to 11
-    # crop list to all values that are left of the 11 number boundary and are right of the last selected number
-    # ...
-
 
 
 def find_total_joltage(joltage_banks) -> int:
